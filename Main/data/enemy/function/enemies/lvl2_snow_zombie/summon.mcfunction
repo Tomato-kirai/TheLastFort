@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["Enemy","Enemy.SnowZombie","Level.2"],DeathLootTable:"enemy:lvl2_snow_zombie",CustomName:'"防寒具ゾンビ"'}

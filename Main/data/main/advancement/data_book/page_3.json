@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": "ページ3",
+    "description": [
+      {
+        "text": "???で取得\n",
+        "color": "gray"
+      },
+      {
+        "text": "会社説明\nAthena Defence\n防衛が専門の民間軍事企業\n一般向けに発売される製品はショットガンなどが多い",
+        "color": "white"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "main:data_book/page_2",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{id:\"data_book\",page:3}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

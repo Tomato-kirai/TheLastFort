@@ -1,0 +1,1 @@
+summon polar_bear ~ ~ ~ {Tags:["Enemy","Enemy.PolarBear","Level.2"],DeathLootTable:"enemy:lvl2_polar_bear",CustomName:'"ホッキョクグマ"'}

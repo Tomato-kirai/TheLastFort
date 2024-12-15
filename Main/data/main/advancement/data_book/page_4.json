@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": "ページ4",
+    "description": [
+      {
+        "text": "???で取得\n",
+        "color": "gray"
+      },
+      {
+        "text": "会社説明\nCaldera Industry\n爆発物や爆弾、ロケットランチャーなどを製造する民間企業\n製品はグレネードやロケットランチャーなどが多い",
+        "color": "white"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "main:data_book/page_3",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{id:\"data_book\",page:4}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

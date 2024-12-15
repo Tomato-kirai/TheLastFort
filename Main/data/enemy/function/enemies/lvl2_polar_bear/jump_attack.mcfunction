@@ -1,0 +1,1 @@
+execute as @a[distance=..2] run damage @s 15 mob_attack by @n[tag=Enemy.PolarBear]

@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.components."minecraft:custom_data".damage if score @s player.selected_item_damage matches ..0 run function item:item_damage/break

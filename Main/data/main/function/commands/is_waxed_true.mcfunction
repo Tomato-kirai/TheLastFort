@@ -1,0 +1,1 @@
+data modify block ~ ~ ~ is_waxed set value true

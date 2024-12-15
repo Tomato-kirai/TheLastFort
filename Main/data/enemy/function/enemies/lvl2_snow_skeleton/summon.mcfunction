@@ -1,0 +1,1 @@
+summon skeleton ~ ~ ~ {Tags:["Enemy","Enemy.SnowSkeleton","Level.2"],DeathLootTable:"enemy:lvl2_snow_skeleton",CustomName:'"スノースケルトン"'}

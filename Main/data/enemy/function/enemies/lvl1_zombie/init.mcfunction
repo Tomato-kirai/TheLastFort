@@ -1,0 +1,1 @@
+loot replace entity @s armor.head loot item:military_cap

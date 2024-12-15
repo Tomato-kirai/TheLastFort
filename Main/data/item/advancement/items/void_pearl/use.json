@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{id:\"void_pearl\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:items/void_pearl/use"
+  }
+}

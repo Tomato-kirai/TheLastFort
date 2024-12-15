@@ -1,0 +1,10 @@
+scoreboard objectives add gun.interval dummy
+scoreboard objectives add gun.max_interval dummy
+scoreboard objectives add gun.ammo dummy
+scoreboard objectives add gun.max_ammo dummy
+scoreboard objectives add gun.damage dummy
+scoreboard objectives add gun.reload_time dummy
+scoreboard objectives add gun.max_reload_time dummy
+scoreboard objectives add gun.pattern dummy
+scoreboard objectives add gun.calculated_ammo dummy
+scoreboard objectives add gun.range dummy

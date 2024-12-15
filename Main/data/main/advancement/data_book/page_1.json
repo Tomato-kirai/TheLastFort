@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": "ページ1",
+    "description": [
+      {
+        "text": "???で取得\n",
+        "color": "gray"
+      },
+      {
+        "text": "隣国がモンスターを従え始めた。\n良くない気がする。",
+        "color": "white"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "main:data_book/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{id:\"data_book\",page:1}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

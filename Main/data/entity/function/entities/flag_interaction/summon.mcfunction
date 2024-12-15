@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon interaction ~ ~ ~ {height:2f,Tags:["Entity.FlagInteraction"],CustomName:'"旗を取得"'}

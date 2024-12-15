@@ -1,0 +1,1 @@
+summon cave_spider ~ ~ ~ {Tags:["Enemy","Enemy.Spider","Level.1"],DeathLootTable:"enemy:lvl1_spider",CustomName:'"クモ"'}

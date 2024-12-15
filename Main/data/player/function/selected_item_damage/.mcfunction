@@ -1,0 +1,2 @@
+execute store result score @s player.selected_item_damage run data get entity @s SelectedItem.components."minecraft:custom_data".damage 1
+execute store result score @s player.selected_item_max_damage run data get entity @s SelectedItem.components."minecraft:custom_data".max_damage 1

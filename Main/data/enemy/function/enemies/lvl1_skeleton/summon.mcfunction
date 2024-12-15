@@ -1,0 +1,1 @@
+summon skeleton ~ ~ ~ {Tags:["Enemy","Enemy.Skeleton","Level.1"],DeathLootTable:"enemy:lvl1_skeleton",CustomName:'"スケルトン"'}

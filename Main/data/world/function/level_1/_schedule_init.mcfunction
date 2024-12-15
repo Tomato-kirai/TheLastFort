@@ -1,0 +1,1 @@
+execute in world:level_1 run function world:level_1/init

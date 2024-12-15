@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["Enemy","Enemy.Zombie","Level.1"],DeathLootTable:"enemy:lvl1_zombie",CustomName:'"ゾンビ"'}

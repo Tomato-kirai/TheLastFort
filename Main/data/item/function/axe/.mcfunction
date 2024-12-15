@@ -1,0 +1,1 @@
+execute if score @s item.axe.mined matches 1.. run function item:axe/mined

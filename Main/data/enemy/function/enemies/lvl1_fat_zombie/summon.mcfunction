@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["Enemy","Enemy.FatZombie","Level.1"],DeathLootTable:"enemy:lvl1_fat_zombie",CustomName:'"ファットゾンビ"'}
