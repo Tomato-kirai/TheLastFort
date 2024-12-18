@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "Z-4090 SRFLMG"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Zeus Arms製のLMG",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "SRFLMGはSuper Rapid Fire Light Machine Gunの略",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:custom_data": "{id:\"z_4090\",gundata:{interval:0,ammo:80,reload_time:0},max_damage:800,damage:800}",
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "none"
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:item_model": "main:z_4090"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
