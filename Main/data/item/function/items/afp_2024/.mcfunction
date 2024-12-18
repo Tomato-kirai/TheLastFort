@@ -1,4 +1,4 @@
-scoreboard players set @s gun.damage 3
+scoreboard players set @s gun.damage 4
 scoreboard players set @s gun.max_interval 7
 scoreboard players set @s gun.max_ammo 12
 scoreboard players set @s gun.max_reload_time 50
