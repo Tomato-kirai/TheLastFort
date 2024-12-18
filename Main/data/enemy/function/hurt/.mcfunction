@@ -18,8 +18,9 @@ execute if score @s enemy.health matches 90..99 run summon text_display ~ ~2 ~ {
 execute if score @s enemy.health matches 100.. run summon text_display ~ ~2 ~ {billboard:"vertical",alignment:"center",Tags:["Entity.HealthDisplay"],text:'[{"color":"green","text":"■■■■■■■■■■"},{"color":"gray","text":""}]'}
 
 
-
-
-
 scoreboard players reset @s enemy.health
 scoreboard players reset @s enemy.max_health
+
+
+
+tag @s add Event.Hurt
