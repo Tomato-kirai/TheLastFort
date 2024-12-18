@@ -1,0 +1,1 @@
+execute if score @s trigger.config.gore matches 1 run function trigger:config_gore/

@@ -1,4 +1,6 @@
 function world:load
+function config:load
+function trigger:load
 function item:load
 function entity:load
 function enemy:load

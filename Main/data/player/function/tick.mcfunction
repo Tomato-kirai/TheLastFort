@@ -34,3 +34,6 @@ function shop:shop/player
 
 
 function world:player
+
+
+function trigger:main
