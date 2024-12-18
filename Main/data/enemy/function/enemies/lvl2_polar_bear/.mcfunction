@@ -9,4 +9,4 @@ execute if score @s enemy.attack_timer matches 40..50 run function enemy:enemies
 execute if score @s enemy.attack_timer matches 120.. run scoreboard players reset @s enemy.attack_timer
 
 
-execute if entity @s[tag=Event.Hurt] run function enemy:bloods/blood
+execute if entity @s[tag=Event.Hurt] run function enemy:bloods/blood/

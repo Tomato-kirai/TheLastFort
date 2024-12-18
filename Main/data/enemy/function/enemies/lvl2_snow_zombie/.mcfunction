@@ -1,1 +1,1 @@
-execute if entity @s[tag=Event.Hurt] run function enemy:bloods/blood
+execute if entity @s[tag=Event.Hurt] run function enemy:bloods/blood/
