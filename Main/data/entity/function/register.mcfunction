@@ -12,6 +12,7 @@ execute if entity @s[tag=Entity.Train] run function entity:entities/train/
 
 execute if entity @s[tag=Entity.SkeletonBone] run function entity:entities/skeleton_bone/
 
+execute if entity @s[tag=Entity.AbilityGrenade] run function entity:entities/ability_grenade/
 
 
 

@@ -28,3 +28,7 @@ scoreboard objectives add player.ammo_temp dummy
 
 scoreboard objectives add player.selected_item_damage dummy
 scoreboard objectives add player.selected_item_max_damage dummy
+
+scoreboard objectives add player.ability.id dummy
+scoreboard objectives add player.ability.count dummy
+scoreboard objectives add player.ability.ability_item_count dummy

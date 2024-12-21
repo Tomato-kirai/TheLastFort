@@ -1,0 +1,1 @@
+execute if score @s player.ability.id matches 1 run function player:ability/grenade/

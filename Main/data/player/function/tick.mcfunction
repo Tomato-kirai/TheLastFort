@@ -23,9 +23,12 @@ function player:ammo/
 function player:gold/
 
 
+function player:ability/
+
+
 function item:main
 
-function shop:main
+#function shop:main
 
 
 function shop:core/player/main

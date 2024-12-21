@@ -1,0 +1,1 @@
+item replace entity @s hotbar.8 with barrier[custom_data={id:"ability_not_available",ability:1b},item_name='{"text": "使用不可","color": "white"}']
