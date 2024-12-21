@@ -30,17 +30,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "item:pebblethrow_enchanted_book",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "item:dog_friend_enchanted_book",
+          "value": "item:data_book/data_book_page_1",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
