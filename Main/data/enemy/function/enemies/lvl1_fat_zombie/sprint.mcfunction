@@ -1,4 +1,4 @@
-effect give @s speed 1 3 true
+effect give @s speed 1 2 true
 
 particle crit ~ ~ ~ 1 1 1 0 50 force @a
 
