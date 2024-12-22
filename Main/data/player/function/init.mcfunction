@@ -16,7 +16,7 @@ scoreboard players set @s player.level 0
 
 execute unless score @s player.id matches 1.. run function player:gen_id/
 
-scoreboard players set @s player.ability.id 1
+scoreboard players set @s player.ability.id 2
 
 scoreboard players set @s player.ability.count 0
 

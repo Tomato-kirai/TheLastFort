@@ -1,1 +1,1 @@
-item replace entity @s hotbar.8 with heavy_core[custom_data={id:"ability_grenade",ability:1b},item_name='"グレネード"',consumable={animation:none,has_consume_particles:false,consume_seconds:0.0,sound:{sound_id:"intentionally_empty",range:0.0}}]
+item replace entity @s hotbar.8 with heavy_core[custom_data={id:"ability_grenade",ability:1b},item_name='{"text": "グレネード","color": "light_purple"}',consumable={animation:none,has_consume_particles:false,consume_seconds:0.0,sound:{sound_id:"intentionally_empty",range:0.0}}]

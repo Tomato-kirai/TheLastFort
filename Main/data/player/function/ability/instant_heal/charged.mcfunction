@@ -1,0 +1,1 @@
+item replace entity @s hotbar.8 with allium[custom_data={id:"ability_instant_heal",ability:1b},item_name='{"text": "インスタントヒール","color": "light_purple"}',consumable={animation:none,has_consume_particles:false,consume_seconds:0.0,sound:{sound_id:"intentionally_empty",range:0.0}},enchantment_glint_override=true]
