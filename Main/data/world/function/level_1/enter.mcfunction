@@ -14,4 +14,4 @@ execute unless score $level_1 world.dungeon_players matches 1.. run schedule fun
 function world:heal
 
 
-function world:give_flag
+#function world:give_flag
