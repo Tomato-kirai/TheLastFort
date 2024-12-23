@@ -1,0 +1,1 @@
+scoreboard players set @s player.ability.id 2
