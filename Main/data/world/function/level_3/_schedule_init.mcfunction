@@ -1,0 +1,1 @@
+execute in world:level_3 run function world:level_3/init
