@@ -14,6 +14,7 @@ execute if entity @s[tag=Entity.SkeletonBone] run function entity:entities/skele
 
 execute if entity @s[tag=Entity.AbilityGrenade] run function entity:entities/ability_grenade/
 
+execute if entity @s[tag=Entity.SkeletonRiderHorse] run function entity:entities/skeleton_rider_horse/
 
 
 execute if entity @s[tag=Entity.FireBallEntity] run function enchantment:fireball/fireball_entity/

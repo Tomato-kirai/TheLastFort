@@ -11,5 +11,7 @@ execute if entity @s[tag=Enemy.SnowSkeleton] run function enemy:enemies/lvl2_sno
 
 execute if entity @s[tag=Enemy.SnowZombie] run function enemy:enemies/lvl2_snow_zombie/init
 
+execute if entity @s[tag=Enemy.SkeletonRider] run function enemy:enemies/lvl3_skeleton_rider/init
+
 
 tag @s add Event.Initialized
