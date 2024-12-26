@@ -1,4 +1,4 @@
-execute as @p positioned 0.0 0.0 0.0 rotated as @s positioned ^ ^0.2 ^-1.2 run summon marker ~ ~ ~ {Tags:["Entity.Motion"]}
+execute positioned 0.0 0.0 0.0 rotated as @s positioned ^ ^0.2 ^1.2 run summon marker ~ ~ ~ {Tags:["Entity.Motion"]}
 
 data modify entity @n[tag=Entity.SkeletonRiderHorse] Motion set from entity @n[tag=Entity.Motion] Pos
 
