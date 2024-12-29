@@ -1,1 +1,1 @@
-summon pillager ~ ~ ~ {Tags:["Enemy","Enemy.RiverPillager","Level.3"],DeathLootTable:"enemy:lvl3_snow_zombie",CustomName:'"川辺のピリジャー"'}
+summon pillager ~ ~ ~ {Tags:["Enemy","Enemy.RiverPillager","Level.3"],DeathLootTable:"enemy:lvl3_river_pillager",CustomName:'"川辺のピリジャー"'}

@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 14,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:gold"
+        }
+      ]
+    },
+    {
+      "rolls": 14,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:xp"
+        }
+      ]
+    }
+  ]
+}
