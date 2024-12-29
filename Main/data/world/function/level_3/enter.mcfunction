@@ -8,7 +8,7 @@ tellraw @a [{"selector": "@s","color": "yellow"},{"text": "は","color": "white"
 playsound block.water.ambient player @s ~ ~ ~ 1 2
 
 
-execute unless score $level_2 world.dungeon_players matches 1.. run schedule function world:level_3/_schedule_init 5t
+execute unless score $level_3 world.dungeon_players matches 1.. run schedule function world:level_3/_schedule_init 5t
 
 
 function world:heal
