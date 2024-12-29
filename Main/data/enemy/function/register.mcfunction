@@ -13,3 +13,5 @@ execute if entity @s[tag=Enemy.PolarBear] run function enemy:enemies/lvl2_polar_
 execute if entity @s[tag=Enemy.SkeletonRider] run function enemy:enemies/lvl3_skeleton_rider/
 
 execute if entity @s[tag=Enemy.SwordZombie] run function enemy:enemies/lvl3_sword_zombie/
+
+execute if entity @s[tag=Enemy.RiverPillager] run function enemy:enemies/lvl3_river_pillager/
