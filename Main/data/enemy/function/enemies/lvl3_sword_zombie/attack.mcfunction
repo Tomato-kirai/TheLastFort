@@ -1,4 +1,4 @@
-execute as @a[distance=..2] run damage @s 7 mob_attack by @n[tag=Enemy.SwordZombie]
+execute as @a[distance=..2] run damage @s 5 mob_attack by @n[tag=Enemy.SwordZombie]
 
 playsound entity.player.attack.sweep hostile @a ~ ~ ~ 1 2
 
