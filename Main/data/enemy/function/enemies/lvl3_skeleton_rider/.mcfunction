@@ -1,4 +1,4 @@
-execute if entity @s[tag=Event.Hurt] run function enemy:bloods/blood/
+execute if entity @s[tag=Event.Hurt] run function enemy:bloods/bone/
 
 execute if predicate enemy:is_targeting_player run scoreboard players add @s enemy.attack_timer 1
 
