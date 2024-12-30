@@ -3,3 +3,5 @@ execute anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ summon chest_minecar
 tag @s add Event.LookingAtShopOwner
 
 tag @s add Event.ShopInvInit
+
+attribute @s entity_interaction_range base set 0.5
