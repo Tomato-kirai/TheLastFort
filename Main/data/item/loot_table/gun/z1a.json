@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "Z1A スティンガー"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Zeus Arms製のアサルトライフル",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "安定性がとても高い",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:custom_data": "{id:\"z1a\",gundata:{interval:0,ammo:30,reload_time:0},max_damage:1000,damage:1000}",
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "none"
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:item_model": "main:z1a"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
