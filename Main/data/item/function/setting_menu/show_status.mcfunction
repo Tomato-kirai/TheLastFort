@@ -7,3 +7,7 @@ tellraw @s [{"text": "経験値: ","color": "green"},{"score": {"name": "@s", "o
 tellraw @s [{"text": "レベル: ","color": "dark_green"},{"score": {"name": "@s", "objective": "player.level"}}]
 
 function item:setting_menu/play_click_sound
+
+
+# advancements
+advancement grant @s only main:the_last_fort/show_status

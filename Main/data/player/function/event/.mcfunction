@@ -1,0 +1,1 @@
+execute if entity @s[tag=Event.Hit] run tag @s remove Event.Hit
