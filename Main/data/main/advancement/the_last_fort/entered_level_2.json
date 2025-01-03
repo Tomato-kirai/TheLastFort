@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bricks"
+    },
+    "title": "寒々しい銀世界",
+    "description": "銀世界を訪れる",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "main:the_last_fort/entered_level_1",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "world:level_2"
+          }
+        }
+      }
+    }
+  }
+}
