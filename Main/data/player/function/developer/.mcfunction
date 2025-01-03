@@ -1,0 +1,1 @@
+execute if entity @s[tag=!Player.Developer,gamemode=!adventure] run function player:developer/not_developer

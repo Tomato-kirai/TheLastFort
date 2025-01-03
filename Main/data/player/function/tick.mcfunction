@@ -1,6 +1,8 @@
 #advancement revoke @s only player:tick
 execute if entity @s[tag=Event.Hit] run tag @s remove Event.Hit
 
+function player:developer/
+
 function player:selected_item_damage/
 
 function item:main
