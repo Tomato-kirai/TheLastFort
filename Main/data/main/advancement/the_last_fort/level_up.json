@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": "ちょっと強くなった？",
+    "description": "レベルアップする",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "main:the_last_fort/bought_item_in_shop",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

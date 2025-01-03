@@ -10,3 +10,7 @@ function player:level/add_max_health
 
 
 playsound entity.player.levelup player @a[distance=..128] ~ ~ ~ 1 2
+
+
+# advancements
+advancement grant @s only main:the_last_fort/level_up
