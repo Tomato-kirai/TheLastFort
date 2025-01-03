@@ -31,9 +31,6 @@ function player:gold/
 function player:ability/
 
 
-#function shop:main
-
-
 function shop:core/player/main
 
 function shop:shop/player
@@ -43,3 +40,7 @@ function world:player
 
 
 function trigger:main
+
+
+xp set @s 0 levels
+xp set @s 0 points
