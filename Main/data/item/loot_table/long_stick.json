@@ -16,6 +16,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "max_stack_size":1,
                 "minecraft:custom_data": "{id:\"long_stick\"}",
                 "minecraft:item_model": "main:long_stick",
                 "minecraft:attribute_modifiers": [
