@@ -1,0 +1,1 @@
+execute if block 0 -64 0 minecraft:dropper{Items:[{Slot:4b,id:"minecraft:stick"},{Slot:7b,id:"minecraft:stick"}]} run function crafter:recipe/long_stick/

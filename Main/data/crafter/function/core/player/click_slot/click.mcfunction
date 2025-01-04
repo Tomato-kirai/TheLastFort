@@ -1,4 +1,4 @@
-#execute if predicate crafter:core/player/click_buyable_item run function crafter:core/player/click_buyable_item/click
+execute if predicate crafter:core/player/click_crafting_slot run function crafter:core/craft/craft
 
 item replace entity @s player.cursor with air
 

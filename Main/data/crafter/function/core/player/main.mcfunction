@@ -6,5 +6,6 @@ execute if entity @s[tag=Event.LookingAtCrafter] unless predicate crafter:core/p
 execute if predicate crafter:core/player/click_crafter_slot run function crafter:core/player/click_slot/click
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{crafter_slot:1b}}}]}] run function crafter:core/player/close_inv/close
 
+execute if entity @s[tag=Event.CraftSuccess] run function crafter:core/player/craft_success/
 
 #function crafter:recipe/player
