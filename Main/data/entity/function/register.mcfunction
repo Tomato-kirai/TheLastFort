@@ -1,5 +1,7 @@
 execute if entity @s[tag=Entity.ShopInv] run function shop:core/shop_inv/main
 
+execute if entity @s[tag=Entity.CrafterInv] run function crafter:core/crafter_inv/main
+
 #execute if entity @s[tag=Entity.ShopOwner] run function shop:core/shop_owner/main
 
 execute if entity @s[tag=Entity.Spawner] run function entity:entities/spawner/

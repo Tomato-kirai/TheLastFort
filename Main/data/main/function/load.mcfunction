@@ -21,6 +21,7 @@ function item:load
 function entity:load
 function enemy:load
 function shop:load
+function crafter:load
 function player:load
 
 scoreboard objectives add main.const dummy

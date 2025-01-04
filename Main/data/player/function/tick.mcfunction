@@ -36,6 +36,9 @@ function shop:core/player/main
 function shop:shop/player
 
 
+function crafter:core/player/main
+
+
 function world:player
 
 
