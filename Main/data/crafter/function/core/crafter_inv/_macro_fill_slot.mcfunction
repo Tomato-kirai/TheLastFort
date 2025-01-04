@@ -1,0 +1,2 @@
+$execute unless entity @s[nbt={Items:[{Slot:$(slot)b,components:{"minecraft:custom_data":{crafter_slot:1b}}}]}] run function crafter:core/crafter_inv/return_item {slot:$(slot)}
+$item replace entity @s container.$(slot) with $(item) $(count)
