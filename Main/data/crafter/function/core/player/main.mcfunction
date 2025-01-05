@@ -1,6 +1,6 @@
-execute if entity @n[type=villager,tag=Entity.Crafter,distance=..5] if predicate crafter:core/player/looking_at_crafter unless entity @s[tag=Event.LookingAtCrafter] run function crafter:core/player/looking_at_crafter/init
+execute if entity @n[tag=Entity.Crafter,distance=..5] if predicate crafter:core/player/looking_at_crafter unless entity @s[tag=Event.LookingAtCrafter] run function crafter:core/player/looking_at_crafter/init
 
-execute if entity @s[tag=Event.LookingAtCrafter] unless entity @n[type=villager,tag=Entity.Crafter,distance=..5] run function crafter:core/player/reset_looking_at
+execute if entity @s[tag=Event.LookingAtCrafter] unless entity @n[tag=Entity.Crafter,distance=..5] run function crafter:core/player/reset_looking_at
 execute if entity @s[tag=Event.LookingAtCrafter] unless predicate crafter:core/player/looking_at_crafter run function crafter:core/player/reset_looking_at
 
 execute if predicate crafter:core/player/click_crafter_slot run function crafter:core/player/click_slot/click
