@@ -8,4 +8,4 @@ execute unless block ^ ^ ^0.25 #main:no_collision run function gun:bullet/kill
 
 #execute if entity @e[dx=0,sort=nearest,limit=1] positioned ~-0.8 ~-0.8 ~-0.8 if entity @e[dx=0,sort=nearest,limit=1] run function libs:gun/bullet/kill
 
-#particle dust 0.725 0.639 0.349 0.2 ^ ^-0.05 ^ 0.0 0.0 0.0 0.0 1 force @a
+particle dust{color:11047809,scale:0.3} ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a[distance=1..]
