@@ -9,6 +9,8 @@ scoreboard objectives add entity.loot_marker.timer dummy
 
 scoreboard objectives add entity.health_display.age dummy
 
+scoreboard objectives add entity.damage_display.age dummy
+
 scoreboard objectives add entity.gold_item.age dummy
 scoreboard objectives add entity.xp_item.age dummy
 

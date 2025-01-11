@@ -1,3 +1,5 @@
+execute if entity @s[tag=Entity.Bullet] run function gun:bullet/
+
 execute if entity @s[tag=Entity.ShopInv] run function shop:core/shop_inv/main
 
 execute if entity @s[tag=Entity.CrafterInv] run function crafter:core/crafter_inv/main
@@ -9,6 +11,8 @@ execute if entity @s[tag=Entity.Spawner] run function entity:entities/spawner/
 execute if entity @s[tag=Entity.LootMarker] run function entity:entities/loot_marker/
 
 execute if entity @s[tag=Entity.HealthDisplay] run function entity:entities/health_display/
+
+execute if entity @s[tag=Entity.DamageDisplay] run function entity:entities/damage_display/
 
 execute if entity @s[tag=Entity.Train] run function entity:entities/train/
 
