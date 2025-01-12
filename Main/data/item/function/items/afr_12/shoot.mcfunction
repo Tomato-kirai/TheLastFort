@@ -1,4 +1,4 @@
-function item:items/afr_12/pattern
+execute anchored eyes positioned ^ ^ ^ run function gun:bullet/summon
 
 playsound entity.iron_golem.hurt ambient @a ~ ~ ~ 1 2
 playsound block.chain.break ambient @a ~ ~ ~ 0.5 1

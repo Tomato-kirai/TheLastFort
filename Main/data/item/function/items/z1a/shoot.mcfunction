@@ -1,4 +1,4 @@
-function item:items/z1a/pattern
+execute anchored eyes positioned ^ ^ ^ run function gun:bullet/summon
 
 playsound block.metal.break ambient @a ~ ~ ~ 1 2
 playsound block.metal.break ambient @a ~ ~ ~ 1 2

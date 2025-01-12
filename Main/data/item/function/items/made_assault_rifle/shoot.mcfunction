@@ -1,4 +1,4 @@
-function item:items/made_assault_rifle/pattern
+execute anchored eyes positioned ^ ^ ^ run function gun:bullet/summon
 
 playsound entity.firework_rocket.blast ambient @a ~ ~ ~ 0.75 0
 playsound block.chain.break ambient @a ~ ~ ~ 1 0
