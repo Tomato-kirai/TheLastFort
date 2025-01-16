@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "shop.shop_inv.sell_value",
+        "scale": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:gold"
+        }
+      ]
+    }
+  ]
+}

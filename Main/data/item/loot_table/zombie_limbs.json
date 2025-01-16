@@ -14,9 +14,24 @@
               "name": "ゾンビの部位"
             },
             {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "価値: 5G",
+                  "type": "text",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "main:zombie_limbs"
+                "minecraft:item_model": "main:zombie_limbs",
+                "minecraft:custom_data": "{id:\"zombie_limbs\",value:5}"
               }
             }
           ]
