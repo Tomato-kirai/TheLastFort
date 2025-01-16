@@ -5,6 +5,8 @@ scoreboard players operation @s shop.shop_inv.sell_value *= @s shop.shop_inv.sel
 
 scoreboard players operation @p player.gold += @s shop.shop_inv.sell_value
 
+tellraw @s [{"score": {"name": "@s","objective": "shop.shop_inv.sell_value"},"color": "gold"},{"text": "G","color": "gold"},{"text": "に換金されました","color":"white"}]
+
 #loot spawn ~ ~ ~ loot shop:core/convert_to_gold
 
 #execute as @e[type=item,distance=..0.5,nbt={Item:{components:{"minecraft:custom_data":{id:"gold"}}}}] run function shop:core/shop_inv/sell/set_data
