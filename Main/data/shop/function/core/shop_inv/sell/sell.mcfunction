@@ -5,7 +5,7 @@ scoreboard players operation @s shop.shop_inv.sell_value *= @s shop.shop_inv.sel
 
 scoreboard players operation @p player.gold += @s shop.shop_inv.sell_value
 
-tellraw @s [{"score": {"name": "@s","objective": "shop.shop_inv.sell_value"},"color": "gold"},{"text": "G","color": "gold"},{"text": "に換金されました","color":"white"}]
+tellraw @p [{"score": {"name": "@s","objective": "shop.shop_inv.sell_value"},"color": "gold"},{"text": "G","color": "gold"},{"text": "に換金されました","color":"white"}]
 
 #loot spawn ~ ~ ~ loot shop:core/convert_to_gold
 
