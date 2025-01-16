@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:zombie_head",
+          "name": "minecraft:skeleton_skull",
           "functions": [
             {
               "function": "minecraft:set_name",
