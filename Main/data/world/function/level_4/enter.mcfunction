@@ -2,8 +2,8 @@ tp @s 0.0 2 0.0 0.0 0.0
 
 
 title @s times 10 20 10
-title @s title [{"text": "海上基地"}]
-tellraw @a [{"selector": "@s","color": "yellow"},{"text": "は","color": "white"},{"text": "海上基地","color": "green"},{"text": "に入りました","color": "white"}]
+title @s title [{"text": "要塞"}]
+tellraw @a [{"selector": "@s","color": "yellow"},{"text": "は","color": "white"},{"text": "要塞","color": "green"},{"text": "に入りました","color": "white"}]
 
 playsound entity.iron_golem.hurt player @s ~ ~ ~ 1 1
 
