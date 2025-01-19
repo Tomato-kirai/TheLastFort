@@ -17,5 +17,9 @@ execute if entity @s[tag=Enemy.SwordZombie] run function enemy:enemies/lvl3_swor
 
 execute if entity @s[tag=Enemy.RiverPillager] run function enemy:enemies/lvl3_river_pillager/init
 
+execute if entity @s[tag=Enemy.GuardianDrone] run function enemy:enemies/lvl4_guardian_drone/init
+
+#execute if entity @s[tag=Enemy.GuardianDroneDisplay] run function enemy:enemies/lvl4_guardian_drone_display/init
+
 
 tag @s add Event.Initialized

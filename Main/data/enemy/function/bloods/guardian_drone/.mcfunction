@@ -1,0 +1,1 @@
+particle block{block_state:"cobblestone"} ~ ~ ~ 0.5 0.5 0.5 0 100 force @a
