@@ -8,6 +8,7 @@ scoreboard players set @s gun.accuracy_x1 -300
 scoreboard players set @s gun.accuracy_x2 300
 scoreboard players set @s gun.accuracy_y1 -300
 scoreboard players set @s gun.accuracy_y2 300
+scoreboard players operation @s player.id = @s enemy.id
 
 function gun:bullet/summon
 
