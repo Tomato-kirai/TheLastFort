@@ -1,1 +1,1 @@
-summon vex ~ ~ ~ {Tags:["Enemy","Enemy.GuardianDrone","Level.4"],DeathTime:19,Silent:1b,DeathLootTable:"enemy:lvl4_guardian_drone",CustomName:'"ドローン"'}
+summon vex ~ ~ ~ {Tags:["Enemy","Enemy.GuardianDrone","Level.4"],DeathTime:19,Silent:1b,DeathLootTable:"enemy:lvl4_guardian_drone",CustomName:'"ガーディアンドローン"'}
