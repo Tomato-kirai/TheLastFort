@@ -4,6 +4,8 @@ function enemy:enemies/lvl4_guardian_drone_display/summon
 
 attribute @s max_health base set 40
 
+attribute @s follow_range base set 120
+
 effect give @s instant_health 1 200 true
 
 effect give @s invisibility infinite 0 true
