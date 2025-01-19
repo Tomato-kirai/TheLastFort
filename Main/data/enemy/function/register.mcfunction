@@ -17,5 +17,6 @@ execute if entity @s[tag=Enemy.SwordZombie] run function enemy:enemies/lvl3_swor
 execute if entity @s[tag=Enemy.RiverPillager] run function enemy:enemies/lvl3_river_pillager/
 
 execute if entity @s[tag=Enemy.GuardianDrone] run function enemy:enemies/lvl4_guardian_drone/
-
 execute if entity @s[tag=Enemy.GuardianDroneDisplay] run function enemy:enemies/lvl4_guardian_drone_display/
+
+execute if entity @s[tag=Enemy.FortressGuardian] run function enemy:enemies/lvl4_fortress_guardian/

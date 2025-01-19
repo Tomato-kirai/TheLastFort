@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {Tags:["Enemy","Enemy.FortressGuardian","Level.4"],DeathLootTable:"enemy:lvl4_fortress_guardian",CustomName:'"フォートレスガーディアン"'}
