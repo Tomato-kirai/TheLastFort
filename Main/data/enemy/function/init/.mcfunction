@@ -22,5 +22,7 @@ execute if entity @s[tag=Enemy.GuardianDrone] run function enemy:enemies/lvl4_gu
 
 execute if entity @s[tag=Enemy.FortressGuardian] run function enemy:enemies/lvl4_fortress_guardian/init
 
+execute if entity @s[tag=Enemy.KnightPillager] run function enemy:enemies/lvl4_knight_pillager/init
+
 
 tag @s add Event.Initialized

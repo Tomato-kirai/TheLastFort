@@ -20,3 +20,5 @@ execute if entity @s[tag=Enemy.GuardianDrone] run function enemy:enemies/lvl4_gu
 execute if entity @s[tag=Enemy.GuardianDroneDisplay] run function enemy:enemies/lvl4_guardian_drone_display/
 
 execute if entity @s[tag=Enemy.FortressGuardian] run function enemy:enemies/lvl4_fortress_guardian/
+
+execute if entity @s[tag=Enemy.KnightPillager] run function enemy:enemies/lvl4_knight_pillager/
